@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+	background: #121212;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	text-align: center;
+	color: #fff;
+	margin: 25px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	border: 2px #fff solid;
+	border-radius: 25px;
+	padding: 10px 15px;
+	transition: .2s;
+}
+
+a:hover {
+	background: #fff;
+	color: #121212;
+}
+
+.form {
+	text-align: center;
+}
+
+.input {
+	font-size: 24px;
+	background: #fff;
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+	margin: 25px;
+	outline: none;
+}
+
+.input:focus {
+	box-shadow: 0 0 3px 2px #eee;
+}
+
+.postInput {
+	color: #fff;
+}
+
+.result {
+	margin: 45px 0 45px 0;
+	color: #fff;
+}
+
+.mark {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 45px;
+	font-weight: 700;
+}
